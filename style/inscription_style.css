@@ -1,0 +1,70 @@
+/*.formulaire
+{
+    margin: 0 auto;
+    width: 40%;
+    border: 1px solid black;
+    background-color:#CCCCCC;
+    margin-top:0px;
+}
+h1
+{
+    text-align: center;
+    font-size:24px;
+    background-color:black;
+    color:white;
+    margin-bottom:0px;
+}
+.news p
+{
+    background-color:#CCCCCC;
+    margin-top:0px;
+}
+.news
+{
+    width:70%;
+    margin:auto;
+}
+
+a
+{
+    text-decoration: none;
+    color: blue;
+}
+*/
+
+.inscription 
+{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.inscription > * 
+{
+    flex: 100%;
+}
+
+.header
+{
+  background: tomato;
+  color:white;
+}
+
+.formulaire
+{
+    background: deepskyblue;
+    padding: 0px 50px 0  50px;
+}
+
+form
+{
+    display: inline-block;
+    text-align: left;
+}
